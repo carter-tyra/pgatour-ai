@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+.next
+.turbo
+dist
+coverage
+.env
+.env.*
+!.env.example
+*.log
+.vercel
+.ruff_cache
+.venv
+__pycache__
+.pytest_cache
+playwright-report
+test-results
