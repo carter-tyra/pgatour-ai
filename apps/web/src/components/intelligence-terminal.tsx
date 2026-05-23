@@ -156,6 +156,7 @@ function MarketControls({
       <div className="inline-flex rounded-md border border-zinc-200 bg-white p-1">
         {marketOptions.map((market) => (
           <button
+            aria-pressed={selectedMarket === market.value}
             className={cn(
               "rounded px-2.5 py-1.5 text-xs font-semibold transition",
               selectedMarket === market.value
@@ -868,6 +869,7 @@ export function IntelligenceTerminal() {
 
               return (
                 <button
+                  aria-pressed={activeTab === tab.id}
                   className={cn(
                     "inline-flex shrink-0 items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold transition",
                     activeTab === tab.id

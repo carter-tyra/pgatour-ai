@@ -10,6 +10,7 @@
       "!**/coverage",
       "!**/playwright-report",
       "!**/test-results",
+      "!packages/db/migrations/meta",
       "!**/.turbo",
       "!pnpm-lock.yaml"
     ]

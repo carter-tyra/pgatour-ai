@@ -18,6 +18,9 @@ The v1 posture is analysis-only: the app explains fair lines, market edges, port
 pnpm install
 pnpm dev:web
 pnpm check
+pnpm db:check
+pnpm db:generate
+pnpm db:migrate
 ```
 
 ## Repo Layout

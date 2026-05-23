@@ -7,6 +7,10 @@
   "scripts": {
     "dev": "turbo dev",
     "dev:web": "pnpm --filter @pgatour-ai/web dev",
+    "db:check": "drizzle-kit check",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
     "build": "turbo build",
     "typecheck": "turbo typecheck",
     "test": "turbo test",
@@ -20,6 +24,7 @@
     "@playwright/test": "^1.60.0",
     "@types/node": "25.9.1",
     "drizzle-kit": "0.31.10",
+    "postgres": "3.4.9",
     "turbo": "2.9.14",
     "typescript": "6.0.3",
     "vitest": "4.1.7"

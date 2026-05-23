@@ -8,11 +8,16 @@ test("terminal tabs and market filters work", async ({ page }) => {
 
   for (const tab of ["Research", "Fantasy", "Live", "Portfolio", "AI Analyst", "Betting"]) {
     await page.getByRole("button", { name: tab }).click();
+    await expect(page.getByRole("button", { name: tab })).toHaveAttribute("aria-pressed", "true");
   }
+
+  await expect(page.getByText("Bet Thesis")).toBeVisible();
 
   await page.getByRole("button", { name: "Outright" }).click();
 
-  await expect(page.getByText("Bet Thesis")).toBeVisible();
   await expect(page.getByText("Market Mispricing Board")).toBeVisible();
-  await expect(page.getByRole("button", { name: "Outright" })).toHaveClass(/bg-zinc-950/);
+  await expect(page.getByRole("button", { name: "Outright" })).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
 });
