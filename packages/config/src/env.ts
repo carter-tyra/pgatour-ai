@@ -11,6 +11,7 @@ const envSchema = z.object({
   DATAGOLF_API_KEY: z.string().optional(),
   SPORTSDATAIO_API_KEY: z.string().optional(),
   THE_ODDS_API_KEY: z.string().optional(),
+  BALL_DONT_LIE_API_KEY: z.string().optional(),
   OPENWEATHER_API_KEY: z.string().optional(),
   DATABASE_URL: z.string().default("postgres://postgres:postgres@localhost:5432/pgatour_ai"),
   CLICKHOUSE_URL: z.string().default("http://default:password@localhost:8123/default"),

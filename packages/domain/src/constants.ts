@@ -1,4 +1,11 @@
-export const dataSources = ["datagolf", "sportsdataio", "the-odds-api", "manual", "model"] as const;
+export const dataSources = [
+  "datagolf",
+  "sportsdataio",
+  "the-odds-api",
+  "balldontlie",
+  "manual",
+  "model",
+] as const;
 
 export type DataSource = (typeof dataSources)[number];
 

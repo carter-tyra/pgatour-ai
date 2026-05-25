@@ -24,6 +24,7 @@ function hashRequest(source: DataSource, endpoint: string, params: Record<string
 export function createProviderFetcher(source: DataSource, options: ProviderAdapterOptions) {
   const timeoutMs = options.timeoutMs ?? DEFAULT_TIMEOUT_MS;
   const maxRetries = options.maxRetries ?? DEFAULT_MAX_RETRIES;
+  const authStrategy = options.authStrategy ?? { type: "query", paramName: "key" };
 
   return async function fetchJson<TPayload>(
     request: ProviderRequest,
@@ -35,8 +36,17 @@ export function createProviderFetcher(source: DataSource, options: ProviderAdapt
       url.searchParams.set(key, value);
     }
 
-    if (options.apiKey) {
-      url.searchParams.set("key", options.apiKey);
+    const headers: Record<string, string> = {
+      accept: "application/json",
+      "user-agent": "pgatour-ai-ingest/0.1",
+    };
+
+    if (options.apiKey && authStrategy.type === "query") {
+      url.searchParams.set(authStrategy.paramName, options.apiKey);
+    }
+
+    if (options.apiKey && authStrategy.type === "authorization-header") {
+      headers.authorization = options.apiKey;
     }
 
     let lastError: unknown;
@@ -47,10 +57,7 @@ export function createProviderFetcher(source: DataSource, options: ProviderAdapt
 
       try {
         const response = await fetch(url, {
-          headers: {
-            accept: "application/json",
-            "user-agent": "pgatour-ai-ingest/0.1",
-          },
+          headers,
           signal: controller.signal,
         });
 

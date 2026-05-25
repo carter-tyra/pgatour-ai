@@ -46,6 +46,30 @@ export const betStatusEnum = pgEnum("bet_status", enumValues<BetStatus>(betStatu
 export const contestTypeEnum = pgEnum("contest_type", enumValues<ContestType>(contestTypes));
 export const alertTypeEnum = pgEnum("alert_type", enumValues<AlertType>(alertTypes));
 
+export const sourceEntityMappings = pgTable(
+  "source_entity_mappings",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    source: dataSourceEnum("source").notNull(),
+    entityType: text("entity_type").notNull(),
+    sourceEntityId: text("source_entity_id").notNull(),
+    canonicalId: uuid("canonical_id").notNull(),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (table) => ({
+    canonicalIdx: index("source_entity_mappings_canonical_idx").on(
+      table.entityType,
+      table.canonicalId,
+    ),
+    sourceEntityUnique: uniqueIndex("source_entity_mappings_source_entity_unique").on(
+      table.source,
+      table.entityType,
+      table.sourceEntityId,
+    ),
+  }),
+);
+
 export const players = pgTable(
   "players",
   {
@@ -73,6 +97,7 @@ export const courses = pgTable("courses", {
   yardage: integer("yardage").notNull(),
   grass: text("grass"),
   demandProfile: jsonb("demand_profile").$type<Record<string, unknown>>().notNull().default({}),
+  sourceIds: jsonb("source_ids").$type<Record<string, string>>().notNull().default({}),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 });
@@ -107,6 +132,7 @@ export const tournaments = pgTable(
     endsOn: text("ends_on").notNull(),
     status: text("status").notNull().default("scheduled"),
     purseUsd: integer("purse_usd"),
+    sourceIds: jsonb("source_ids").$type<Record<string, string>>().notNull().default({}),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
     updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
   },
@@ -128,6 +154,7 @@ export const fieldEntries = pgTable(
     status: text("status").notNull().default("entered"),
     seed: integer("seed"),
     teeWave: text("tee_wave"),
+    sourceIds: jsonb("source_ids").$type<Record<string, string>>().notNull().default({}),
     createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (table) => ({

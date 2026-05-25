@@ -8,6 +8,13 @@
       "when": 1779554956207,
       "tag": "0000_init_canonical_schema",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1779725065597,
+      "tag": "0001_add_balldontlie_ingest_foundation",
+      "breakpoints": true
     }
   ]
 }

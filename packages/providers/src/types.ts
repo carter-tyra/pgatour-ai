@@ -33,7 +33,17 @@ export type ProviderClient = {
 
 export type ProviderAdapterOptions = {
   apiKey?: string;
+  authStrategy?: ProviderAuthStrategy;
   baseUrl: string;
   timeoutMs?: number;
   maxRetries?: number;
 };
+
+export type ProviderAuthStrategy =
+  | {
+      type: "query";
+      paramName: string;
+    }
+  | {
+      type: "authorization-header";
+    };

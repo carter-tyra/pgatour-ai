@@ -32,7 +32,21 @@ export function createTheOddsApiClient(
     source: "the-odds-api",
     fetchJson: createProviderFetcher("the-odds-api", {
       ...options,
+      authStrategy: options.authStrategy ?? { type: "query", paramName: "apiKey" },
       baseUrl: "https://api.the-odds-api.com/v4/",
+    }),
+  };
+}
+
+export function createBallDontLieClient(
+  options: Omit<ProviderAdapterOptions, "baseUrl" | "authStrategy">,
+): ProviderClient {
+  return {
+    source: "balldontlie",
+    fetchJson: createProviderFetcher("balldontlie", {
+      ...options,
+      authStrategy: { type: "authorization-header" },
+      baseUrl: "https://api.balldontlie.io/pga/v1/",
     }),
   };
 }
