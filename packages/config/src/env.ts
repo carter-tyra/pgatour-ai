@@ -17,6 +17,7 @@ const envSchema = z.object({
   CLICKHOUSE_URL: z.string().default("http://default:password@localhost:8123/default"),
   REDIS_URL: z.string().default("redis://localhost:6379"),
   RAW_SNAPSHOT_BUCKET: z.string().default("pgatour-ai-raw"),
+  S3_REGION: z.string().default("us-east-1"),
   S3_ACCESS_KEY_ID: z.string().optional(),
   S3_SECRET_ACCESS_KEY: z.string().optional(),
   S3_ENDPOINT: z.url().optional(),

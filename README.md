@@ -21,6 +21,7 @@ pnpm check
 pnpm db:check
 pnpm db:generate
 pnpm db:migrate
+pnpm ingest:balldontlie:seed -- --sample
 ```
 
 ## Repo Layout
