@@ -1,4 +1,9 @@
+import { loadWorkspaceEnv } from "@pgatour-ai/config/workspace-env";
 import type { NextConfig } from "next";
+
+loadWorkspaceEnv({
+  dev: process.env.NODE_ENV !== "production",
+});
 
 const nextConfig: NextConfig = {
   transpilePackages: [

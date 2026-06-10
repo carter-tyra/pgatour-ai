@@ -10,12 +10,28 @@ const maybeString = zod.string().nullable().optional();
 const maybeNumber = zod.number().nullable().optional();
 const maybeBoolean = zod.boolean().nullable().optional();
 
+export const ballDontLieEndpoints = {
+  courseHoles: "v1/course_holes",
+  courses: "v1/courses",
+  futures: "v1/futures",
+  playerRoundResults: "v1/player_round_results",
+  playerRoundStats: "v1/player_round_stats",
+  playerScorecards: "v1/player_scorecards",
+  playerSeasonStats: "v1/player_season_stats",
+  players: "v1/players",
+  teeTimes: "v1/tee_times",
+  tournamentCourseStats: "v1/tournament_course_stats",
+  tournamentField: "v1/tournament_field",
+  tournamentResults: "v1/tournament_results",
+  tournaments: "v2/tournaments",
+} as const;
+
 export const ballDontLiePlayerSchema = zod
   .object({
     id: zod.number().int(),
-    first_name: zod.string(),
-    last_name: zod.string(),
-    display_name: zod.string().optional(),
+    first_name: maybeString,
+    last_name: maybeString,
+    display_name: maybeString,
     country: maybeString,
     country_code: maybeString,
     active: zod.boolean().optional(),
@@ -74,10 +90,153 @@ export const ballDontLieTournamentFieldEntrySchema = zod
     id: zod.number().int(),
     tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
     player: ballDontLiePlayerSchema,
-    entry_status: zod.enum(["IN", "WITHDRAWN", "ALTERNATE"]),
+    entry_status: zod.string(),
     qualifier: maybeString,
     owgr: maybeNumber,
     is_amateur: maybeBoolean,
+  })
+  .passthrough();
+
+export const ballDontLieTeeTimeSchema = zod
+  .object({
+    id: zod.number().int(),
+    round_number: zod.number().int(),
+    group_number: maybeNumber,
+    tee_time: maybeString,
+    start_tee: maybeNumber,
+    back_nine: maybeBoolean,
+    player: ballDontLiePlayerSchema,
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    course: ballDontLieCourseSchema.nullable().optional(),
+  })
+  .passthrough();
+
+export const ballDontLieFutureSchema = zod
+  .object({
+    american_odds: zod.number().int(),
+    id: zod.number().int(),
+    market_name: zod.string(),
+    market_type: zod.string(),
+    player: ballDontLiePlayerSchema,
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    updated_at: zod.string().datetime(),
+    vendor: zod.string(),
+  })
+  .passthrough();
+
+export const ballDontLieCourseHoleSchema = zod
+  .object({
+    course: ballDontLieCourseSchema,
+    hole_number: zod.number().int(),
+    par: zod.number().int(),
+    yardage: maybeNumber,
+  })
+  .passthrough();
+
+export const ballDontLieTournamentResultSchema = zod
+  .object({
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    player: ballDontLiePlayerSchema,
+    position: maybeString,
+    position_numeric: maybeNumber,
+    total_score: maybeNumber,
+    par_relative_score: maybeNumber,
+    earnings: maybeNumber,
+  })
+  .passthrough();
+
+export const ballDontLieTournamentCourseStatsSchema = zod
+  .object({
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    course: ballDontLieCourseSchema,
+    hole_number: zod.number().int(),
+    round_number: maybeNumber,
+    scoring_average: maybeNumber,
+    scoring_diff: maybeNumber,
+    difficulty_rank: maybeNumber,
+    eagles: maybeNumber,
+    birdies: maybeNumber,
+    pars: maybeNumber,
+    bogeys: maybeNumber,
+    double_bogeys: maybeNumber,
+  })
+  .passthrough();
+
+export const ballDontLiePlayerRoundResultSchema = zod
+  .object({
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    player: ballDontLiePlayerSchema,
+    round_number: zod.number().int(),
+    score: maybeNumber,
+    par_relative_score: maybeNumber,
+  })
+  .passthrough();
+
+export const ballDontLiePlayerRoundStatsSchema = zod
+  .object({
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    player: ballDontLiePlayerSchema,
+    round_number: zod.number().int(),
+    sg_off_tee: maybeNumber,
+    sg_off_tee_rank: maybeNumber,
+    sg_approach: maybeNumber,
+    sg_approach_rank: maybeNumber,
+    sg_around_green: maybeNumber,
+    sg_around_green_rank: maybeNumber,
+    sg_putting: maybeNumber,
+    sg_putting_rank: maybeNumber,
+    sg_total: maybeNumber,
+    sg_total_rank: maybeNumber,
+    driving_accuracy: maybeNumber,
+    driving_accuracy_rank: maybeNumber,
+    driving_distance: maybeNumber,
+    driving_distance_rank: maybeNumber,
+    longest_drive: maybeNumber,
+    longest_drive_rank: maybeNumber,
+    greens_in_regulation: maybeNumber,
+    greens_in_regulation_rank: maybeNumber,
+    sand_saves: maybeNumber,
+    sand_saves_rank: maybeNumber,
+    scrambling: maybeNumber,
+    scrambling_rank: maybeNumber,
+    putts_per_gir: maybeNumber,
+    putts_per_gir_rank: maybeNumber,
+    eagles: maybeNumber,
+    birdies: maybeNumber,
+    pars: maybeNumber,
+    bogeys: maybeNumber,
+    double_bogeys: maybeNumber,
+  })
+  .passthrough();
+
+export const ballDontLiePlayerSeasonStatValueSchema = zod
+  .object({
+    statName: zod.string(),
+    statValue: zod.string(),
+  })
+  .passthrough();
+
+export const ballDontLiePlayerSeasonStatSchema = zod
+  .object({
+    player: ballDontLiePlayerSchema,
+    stat_id: zod.number().int(),
+    stat_name: zod.string(),
+    stat_category: maybeString,
+    season: zod.number().int(),
+    rank: maybeNumber,
+    stat_value: zod.array(ballDontLiePlayerSeasonStatValueSchema).nullable().optional(),
+  })
+  .passthrough();
+
+export const ballDontLiePlayerScorecardSchema = zod
+  .object({
+    tournament: ballDontLieTournamentSchema.omit({ courses: true }).passthrough(),
+    player: ballDontLiePlayerSchema,
+    course: ballDontLieCourseSchema.nullable().optional(),
+    round_number: zod.number().int(),
+    hole_number: zod.number().int(),
+    par: zod.number().int(),
+    score: maybeNumber,
   })
   .passthrough();
 
@@ -100,14 +259,46 @@ export function ballDontLiePageSchema<TItem extends z.ZodType>(itemSchema: TItem
 export const ballDontLiePlayersPageSchema = ballDontLiePageSchema(ballDontLiePlayerSchema);
 export const ballDontLieCoursesPageSchema = ballDontLiePageSchema(ballDontLieCourseSchema);
 export const ballDontLieTournamentsPageSchema = ballDontLiePageSchema(ballDontLieTournamentSchema);
+export const ballDontLieCourseHolesPageSchema = ballDontLiePageSchema(ballDontLieCourseHoleSchema);
 export const ballDontLieTournamentFieldPageSchema = ballDontLiePageSchema(
   ballDontLieTournamentFieldEntrySchema,
+);
+export const ballDontLieTeeTimesPageSchema = ballDontLiePageSchema(ballDontLieTeeTimeSchema);
+export const ballDontLieFuturesPageSchema = ballDontLiePageSchema(ballDontLieFutureSchema);
+export const ballDontLieTournamentResultsPageSchema = ballDontLiePageSchema(
+  ballDontLieTournamentResultSchema,
+);
+export const ballDontLieTournamentCourseStatsPageSchema = ballDontLiePageSchema(
+  ballDontLieTournamentCourseStatsSchema,
+);
+export const ballDontLiePlayerRoundResultsPageSchema = ballDontLiePageSchema(
+  ballDontLiePlayerRoundResultSchema,
+);
+export const ballDontLiePlayerRoundStatsPageSchema = ballDontLiePageSchema(
+  ballDontLiePlayerRoundStatsSchema,
+);
+export const ballDontLiePlayerSeasonStatsPageSchema = ballDontLiePageSchema(
+  ballDontLiePlayerSeasonStatSchema,
+);
+export const ballDontLiePlayerScorecardsPageSchema = ballDontLiePageSchema(
+  ballDontLiePlayerScorecardSchema,
 );
 
 export type BallDontLiePlayer = z.infer<typeof ballDontLiePlayerSchema>;
 export type BallDontLieCourse = z.infer<typeof ballDontLieCourseSchema>;
 export type BallDontLieTournament = z.infer<typeof ballDontLieTournamentSchema>;
 export type BallDontLieTournamentFieldEntry = z.infer<typeof ballDontLieTournamentFieldEntrySchema>;
+export type BallDontLieTeeTime = z.infer<typeof ballDontLieTeeTimeSchema>;
+export type BallDontLieFuture = z.infer<typeof ballDontLieFutureSchema>;
+export type BallDontLieCourseHole = z.infer<typeof ballDontLieCourseHoleSchema>;
+export type BallDontLieTournamentResult = z.infer<typeof ballDontLieTournamentResultSchema>;
+export type BallDontLieTournamentCourseStats = z.infer<
+  typeof ballDontLieTournamentCourseStatsSchema
+>;
+export type BallDontLiePlayerRoundResult = z.infer<typeof ballDontLiePlayerRoundResultSchema>;
+export type BallDontLiePlayerRoundStats = z.infer<typeof ballDontLiePlayerRoundStatsSchema>;
+export type BallDontLiePlayerSeasonStat = z.infer<typeof ballDontLiePlayerSeasonStatSchema>;
+export type BallDontLiePlayerScorecard = z.infer<typeof ballDontLiePlayerScorecardSchema>;
 export type BallDontLiePage<TItem> = {
   data: TItem[];
   meta?: z.infer<typeof ballDontLiePageMetaSchema> | undefined;

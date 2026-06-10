@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./workspace-env": "./src/workspace-env.ts"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
@@ -12,10 +13,12 @@
     "test": "vitest run --passWithNoTests"
   },
   "dependencies": {
+    "@next/env": "16.2.6",
     "@pgatour-ai/domain": "workspace:*",
     "zod": "4.4.3"
   },
   "devDependencies": {
+    "@types/node": "25.9.1",
     "typescript": "6.0.3",
     "vitest": "4.1.7"
   }

@@ -8,6 +8,7 @@
       "!**/node_modules",
       "!**/dist",
       "!**/coverage",
+      "!**/.venv",
       "!**/playwright-report",
       "!**/test-results",
       "!packages/db/migrations/meta",
@@ -34,11 +35,34 @@
       }
     }
   },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
   "javascript": {
     "formatter": {
       "quoteStyle": "double",
       "semicolons": "always",
       "trailingCommas": "all"
     }
-  }
+  },
+  "overrides": [
+    {
+      "includes": ["apps/web/src/components/ui/**"],
+      "linter": {
+        "enabled": false
+      }
+    },
+    {
+      "includes": ["apps/web/src/app/globals.css"],
+      "linter": {
+        "rules": {
+          "complexity": {
+            "noImportantStyles": "off"
+          }
+        }
+      }
+    }
+  ]
 }

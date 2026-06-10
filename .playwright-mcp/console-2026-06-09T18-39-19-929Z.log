@@ -1,0 +1,416 @@
+[     592ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[     945ms] [LOG] Element Cloner content script loaded @ chrome-extension://obpjaonipoaomjnokbimppohbpjibflm/assets/injector-main.js-Byfhq6om.js:834
+[  359738ms] [ERROR] Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received @ http://localhost:3000/dashboard/account:0
+[  359738ms] [ERROR] Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received @ http://localhost:3000/dashboard/account:0
+[  359755ms] A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+[ 1666883ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1667197ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1705782ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1706056ms] [LOG] [Fast Refresh] done in 375ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1728624ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1728676ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1759783ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1762114ms] [LOG] [Fast Refresh] done in 2431ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1762424ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1766717ms] [LOG] [Fast Refresh] done in 4394ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1768814ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1769018ms] [LOG] [Fast Refresh] done in 306ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1771013ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1771961ms] [LOG] [Fast Refresh] done in 552ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1787038ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1787884ms] [LOG] [Fast Refresh] done in 948ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1788006ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1788539ms] [LOG] [Fast Refresh] done in 633ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1788816ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1788820ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1789086ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1789096ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1796194ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1796424ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1796547ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1796708ms] [LOG] [Fast Refresh] done in 263ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1796997ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1797125ms] [LOG] [Fast Refresh] done in 229ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1797798ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1797821ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1798166ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1798309ms] [LOG] [Fast Refresh] done in 243ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1798522ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1798535ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1800652ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1800850ms] [LOG] [Fast Refresh] done in 300ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1801110ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1801150ms] [LOG] [Fast Refresh] done in 142ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1805893ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1806031ms] [LOG] [Fast Refresh] done in 154ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1806206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1806208ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1806729ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1806772ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1807116ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1807117ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1811948ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1812017ms] [ERROR] React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. modelQualityHelper modelqualityhelper @ chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:0
+[ 1812023ms] [ERROR] React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. modelQualityLabel modelqualitylabel @ chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:0
+[ 1812028ms] [ERROR] React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. modelQualityStatus modelqualitystatus @ chrome-extension://fmkadmapgofadopljbjfkapdkoienihi/build/installHook.js:0
+[ 1812047ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1824906ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1825124ms] [LOG] [Fast Refresh] done in 275ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1860297ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1860701ms] [LOG] [Fast Refresh] done in 479ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1860806ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1860974ms] [LOG] [Fast Refresh] done in 270ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1873655ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1873811ms] [LOG] [Fast Refresh] done in 181ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1874968ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1874974ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1885735ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1885809ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1886381ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1886515ms] [LOG] [Fast Refresh] done in 235ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1886674ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1886955ms] [LOG] [Fast Refresh] done in 382ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1890760ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1890813ms] [LOG] [Fast Refresh] done in 155ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1896795ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1896803ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1911714ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1911753ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1917240ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1917251ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1948629ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1948695ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1975675ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1975698ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1990882ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 1990901ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2004514ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2004645ms] [LOG] [Fast Refresh] done in 178ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2004785ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2004789ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2036621ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2036680ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2046604ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2046768ms] [LOG] [Fast Refresh] done in 176ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2052239ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2052253ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2107613ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2107700ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2247552ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2247661ms] [LOG] [Fast Refresh] done in 214ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2249393ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2249412ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2256235ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2256367ms] [LOG] [Fast Refresh] done in 234ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2256661ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2257022ms] [LOG] [Fast Refresh] done in 463ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2268117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2268880ms] [LOG] [Fast Refresh] done in 865ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2269775ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2270040ms] [LOG] [Fast Refresh] done in 366ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2270558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2270567ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2288767ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2288828ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2289542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2289546ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291501ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291505ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291616ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291755ms] [LOG] [Fast Refresh] done in 240ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291863ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2291888ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2292017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2292080ms] [LOG] [Fast Refresh] done in 165ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2292799ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2292808ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293104ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293133ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293239ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293250ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293360ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2293655ms] [LOG] [Fast Refresh] done in 396ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2294134ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2294137ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2294663ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2294767ms] [LOG] [Fast Refresh] done in 205ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2294934ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2295129ms] [LOG] [Fast Refresh] done in 298ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2295571ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2295880ms] [LOG] [Fast Refresh] done in 410ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296236ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296450ms] [LOG] [Fast Refresh] done in 315ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296663ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296715ms] [LOG] [Fast Refresh] done in 153ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296880ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2296924ms] [LOG] [Fast Refresh] done in 144ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2297026ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2297237ms] [LOG] [Fast Refresh] done in 312ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2300332ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2300604ms] [LOG] [Fast Refresh] done in 330ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2321565ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2321593ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2331122ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2331439ms] [LOG] [Fast Refresh] done in 350ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2394158ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2394290ms] [LOG] [Fast Refresh] done in 236ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2470725ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 2471320ms] [LOG] [Fast Refresh] done in 697ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3293677ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3294022ms] [LOG] [Fast Refresh] done in 456ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3298420ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3298451ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3298817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3298819ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3298971ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3299022ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3299205ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3299225ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3316168ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3316289ms] [LOG] [Fast Refresh] done in 224ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3383524ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3383748ms] [LOG] [Fast Refresh] done in 325ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3384041ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3384221ms] [LOG] [Fast Refresh] done in 283ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3390918ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3391178ms] [LOG] [Fast Refresh] done in 362ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3392415ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3392470ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3392817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3392944ms] [LOG] [Fast Refresh] done in 228ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3402318ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3403637ms] [LOG] [Fast Refresh] done in 1586ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3624433ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3626737ms] [LOG] [Fast Refresh] done in 2414ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3627188ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3627224ms] [LOG] [Fast Refresh] done in 137ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3627366ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3627406ms] [LOG] [Fast Refresh] done in 142ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3748065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3748278ms] [LOG] [Fast Refresh] done in 317ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3789375ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3789603ms] [LOG] [Fast Refresh] done in 332ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3815392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3815396ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3827509ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3827671ms] [LOG] [Fast Refresh] done in 264ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3843650ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3843681ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3843786ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3843852ms] [LOG] [Fast Refresh] done in 166ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3866778ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3866834ms] [LOG] [Fast Refresh] done in 158ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3894819ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3894970ms] [LOG] [Fast Refresh] done in 255ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3920799ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3921017ms] [LOG] [Fast Refresh] done in 323ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3921217ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3921301ms] [LOG] [Fast Refresh] done in 186ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3935198ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3935334ms] [LOG] [Fast Refresh] done in 245ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3935502ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3935516ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3963317ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 3963527ms] [LOG] [Fast Refresh] done in 315ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4063109ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4063700ms] [LOG] [Fast Refresh] done in 694ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4066039ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4066429ms] [LOG] [Fast Refresh] done in 491ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4066747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nicolai_h_jgaard.webp:0
+[ 4066752ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kristoffer_reitan.webp:0
+[ 4066841ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4066943ms] [LOG] [Fast Refresh] done in 203ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4067020ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/michael_thorbjornsen.webp:0
+[ 4067069ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alex_noren.webp:0
+[ 4067072ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keith_mitchell.webp:0
+[ 4067314ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alex_fitzpatrick.webp:0
+[ 4067517ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/eric_cole.webp:0
+[ 4067575ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sahith_theegala.webp:0
+[ 4067647ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/michael_brennan.webp:0
+[ 4067757ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/j_t_poston.webp:0
+[ 4067762ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rico_hoey.webp:0
+[ 4067927ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/davis_thompson.webp:0
+[ 4068409ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jordan_smith.webp:0
+[ 4068410ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sudarshan_yellamaraju.webp:0
+[ 4068742ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mac_meissner.webp:0
+[ 4069517ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matt_wallace.webp:0
+[ 4069830ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4069969ms] [LOG] [Fast Refresh] done in 239ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4070071ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4070469ms] [LOG] [Fast Refresh] done in 499ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4071745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/max_homa.webp:0
+[ 4071762ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/thorbj_rn_olesen.webp:0
+[ 4071782ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4071830ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4071931ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4071937ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/doug_ghim.webp:0
+[ 4072012ms] [LOG] [Fast Refresh] done in 182ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4072266ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/christiaan_bezuidenhout.webp:0
+[ 4072297ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/johnny_keefer.webp:0
+[ 4072376ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ricky_castillo.webp:0
+[ 4072464ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/steven_fisk.webp:0
+[ 4072645ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4072784ms] [LOG] [Fast Refresh] done in 240ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4072846ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rasmus_neergaard_petersen.webp:0
+[ 4072882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/taylor_moore.webp:0
+[ 4072907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/andrew_putnam.webp:0
+[ 4073016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/max_mcgreevy.webp:0
+[ 4073039ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adrien_dumont_de_chassart.webp:0
+[ 4073052ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/beau_hossler.webp:0
+[ 4073234ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4073702ms] [LOG] [Fast Refresh] done in 569ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4073722ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zach_bauchou.webp:0
+[ 4073902ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/austin_smotherman.webp:0
+[ 4073969ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/austin_eckroat.webp:0
+[ 4074156ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4074282ms] [LOG] [Fast Refresh] done in 228ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4074309ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/seamus_power.webp:0
+[ 4074323ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lee_hodges.webp:0
+[ 4074333ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/william_mouw.webp:0
+[ 4074387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chad_ramey.webp:0
+[ 4074398ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/garrick_higgo.webp:0
+[ 4074402ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/john_parry.webp:0
+[ 4074483ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kris_ventura.webp:0
+[ 4074499ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jesper_svensson.webp:0
+[ 4074514ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/a_j_ewart.webp:0
+[ 4074557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jackson_suber.webp:0
+[ 4074580ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kevin_roy.webp:0
+[ 4074580ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zecheng_dou.webp:0
+[ 4074614ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sam_ryder.webp:0
+[ 4074641ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keita_nakajima.webp:0
+[ 4074646ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/vince_whaley.webp:0
+[ 4074681ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/hayden_springer.webp:0
+[ 4074705ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/karl_vilips.webp:0
+[ 4074720ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chandler_blanchet.webp:0
+[ 4074752ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4074762ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4074784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mark_hubbard.webp:0
+[ 4074784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/neal_shipley.webp:0
+[ 4074789ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/patrick_fishburn.webp:0
+[ 4074820ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/trace_crowe.webp:0
+[ 4074840ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matthieu_pavon.webp:0
+[ 4074854ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/luke_clanton.webp:0
+[ 4074873ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/brandt_snedeker.webp:0
+[ 4074887ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4074917ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_svensson.webp:0
+[ 4074925ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/takumi_kanaya.webp:0
+[ 4074941ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/john_vanderlaan.webp:0
+[ 4074970ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/pontus_nyholm.webp:0
+[ 4074984ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_hadwin.webp:0
+[ 4074985ms] [LOG] [Fast Refresh] done in 199ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075028ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lanto_griffin.webp:0
+[ 4075045ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/david_lipsky.webp:0
+[ 4075055ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/paul_waring.webp:0
+[ 4075063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/dylan_wu.webp:0
+[ 4075080ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/hank_lebioda.webp:0
+[ 4075092ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075099ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jimmy_stanger.webp:0
+[ 4075151ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/joey_savoie.webp:0
+[ 4075167ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ben_silverman.webp:0
+[ 4075177ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/camilo_villegas.webp:0
+[ 4075186ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nick_dunlap.webp:0
+[ 4075199ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chandler_phillips.webp:0
+[ 4075216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/roger_sloan.webp:0
+[ 4075259ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/christo_lamprecht.webp:0
+[ 4075267ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kensei_hirata.webp:0
+[ 4075279ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/danny_walker.webp:0
+[ 4075297ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/justin_lower.webp:0
+[ 4075320ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_schenk.webp:0
+[ 4075330ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matthew_anderson.webp:0
+[ 4075391ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alejandro_tosti.webp:0
+[ 4075391ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/davis_chatfield.webp:0
+[ 4075425ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/brice_garnett.webp:0
+[ 4075435ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/peter_malnati.webp:0
+[ 4075435ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jeffrey_kang.webp:0
+[ 4075444ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/danny_willett.webp:0
+[ 4075468ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jeevan_sihota.webp:0
+[ 4075502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/padraig_harrington.webp:0
+[ 4075522ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/charley_hoffman.webp:0
+[ 4075541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/justin_matthews.webp:0
+[ 4075566ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/patton_kizzire.webp:0
+[ 4075567ms] [LOG] [Fast Refresh] done in 577ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075569ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/marcelo_rozo.webp:0
+[ 4075599ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/drew_nesbitt.webp:0
+[ 4075626ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ashton_mcculloch.webp:0
+[ 4075636ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/declan_o_donovan.webp:0
+[ 4075657ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/laurent_desmarchais.webp:0
+[ 4075671ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075680ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075685ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sean_o_hair.webp:0
+[ 4075687ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mike_weir.webp:0
+[ 4075745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/calen_sanderson.webp:0
+[ 4075773ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rafael_campos.webp:0
+[ 4075785ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/vince_covello.webp:0
+[ 4075788ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4075794ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/yohann_benson.webp:0
+[ 4075802ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4136796ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4137020ms] [LOG] [Fast Refresh] done in 324ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4137541ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4137787ms] [LOG] [Fast Refresh] done in 348ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4137845ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ben_martin.webp:0
+[ 4139912ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nicolai_h_jgaard.webp:0
+[ 4139936ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keith_mitchell.webp:0
+[ 4140346ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/eric_cole.webp:0
+[ 4140600ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/michael_brennan.webp:0
+[ 4140725ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rico_hoey.webp:0
+[ 4140908ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4142187ms] [LOG] [Fast Refresh] done in 1379ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4142928ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4144106ms] [LOG] [Fast Refresh] done in 1281ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4144323ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4145661ms] [LOG] [Fast Refresh] done in 1438ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4145933ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sudarshan_yellamaraju.webp:0
+[ 4146967ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/doug_ghim.webp:0
+[ 4147503ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/thorbj_rn_olesen.webp:0
+[ 4148219ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/max_homa.webp:0
+[ 4148258ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/johnny_keefer.webp:0
+[ 4148307ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rasmus_neergaard_petersen.webp:0
+[ 4148473ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/taylor_moore.webp:0
+[ 4148585ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zach_bauchou.webp:0
+[ 4148618ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/seamus_power.webp:0
+[ 4148663ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chad_ramey.webp:0
+[ 4148713ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4148726ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4148784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/william_mouw.webp:0
+[ 4148795ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/garrick_higgo.webp:0
+[ 4148908ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4148929ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4149021ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jesper_svensson.webp:0
+[ 4149078ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4149100ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4149187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zecheng_dou.webp:0
+[ 4149209ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jackson_suber.webp:0
+[ 4149247ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sam_ryder.webp:0
+[ 4149445ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/hayden_springer.webp:0
+[ 4149451ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/karl_vilips.webp:0
+[ 4149548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/trace_crowe.webp:0
+[ 4149613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/luke_clanton.webp:0
+[ 4149625ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4149630ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4149638ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_hadwin.webp:0
+[ 4149673ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/john_vanderlaan.webp:0
+[ 4149782ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/pontus_nyholm.webp:0
+[ 4149784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lanto_griffin.webp:0
+[ 4149858ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/dylan_wu.webp:0
+[ 4149934ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nick_dunlap.webp:0
+[ 4149958ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/christo_lamprecht.webp:0
+[ 4149985ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/danny_walker.webp:0
+[ 4150173ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alejandro_tosti.webp:0
+[ 4150180ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jeevan_sihota.webp:0
+[ 4150268ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/justin_matthews.webp:0
+[ 4150385ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/marcelo_rozo.webp:0
+[ 4150427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ashton_mcculloch.webp:0
+[ 4150474ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/calen_sanderson.webp:0
+[ 4150511ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4150524ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4150564ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/vince_covello.webp:0
+[ 4150575ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rafael_campos.webp:0
+[ 4150680ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/austin_eckroat.webp:0
+[ 4150786ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lee_hodges.webp:0
+[ 4150810ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keita_nakajima.webp:0
+[ 4150839ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/neal_shipley.webp:0
+[ 4150895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matthew_anderson.webp:0
+[ 4150903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/peter_malnati.webp:0
+[ 4175366ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ 4175493ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477

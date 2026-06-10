@@ -1,5 +1,7 @@
-import { IntelligenceTerminal } from "../components/intelligence-terminal";
+import { redirect } from "next/navigation";
+
+export const dynamic = "force-dynamic";
 
 export default function Home() {
-  return <IntelligenceTerminal />;
+  redirect("/dashboard");
 }

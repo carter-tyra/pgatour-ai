@@ -26,6 +26,24 @@ Track:
 - tournament drift
 - false confidence
 
+Model v0 validation is persisted by:
+
+```bash
+pnpm model:backtest -- --from-season 2026 --to-season 2026
+```
+
+The command writes one idempotent `model_backtests` row, child
+`model_backtest_predictions`, and scoped `model_evaluations` rows for overall,
+market, tournament, and probability-bin views. Closing-line value is only
+populated when a pre-start market snapshot exists.
+
+The web app treats stored validation as the promotion gate for model-backed
+automation. A model is considered validated only when the latest matching
+completed backtest has at least 500 known outcomes, at least 75% coverage,
+calibration error at or below 8%, Brier score at or below 0.18, and log loss at
+or below 1.10. Limited or missing validation can still be displayed, but
+model-backed bets, watchlists, and alerts fail closed.
+
 ## Promotion Criteria
 
 A model cannot be promoted unless:

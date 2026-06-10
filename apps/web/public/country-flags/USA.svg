@@ -1,0 +1,20 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_16487_295711" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<circle cx="8" cy="8" r="8" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_16487_295711)">
+<rect width="8" height="8" fill="#0065C7"/>
+<rect x="8" width="8" height="1.33333" fill="white"/>
+<rect x="8" y="1.33333" width="8" height="1.33333" fill="#FF0000"/>
+<rect x="8" y="2.66667" width="8" height="1.33333" fill="white"/>
+<rect x="8" y="4" width="8" height="1.33333" fill="#FF0000"/>
+<rect x="8" y="5.33333" width="8" height="1.33333" fill="white"/>
+<rect x="8" y="6.66667" width="8" height="1.33333" fill="#FF0000"/>
+<rect y="8" width="16" height="1.33333" fill="white"/>
+<rect y="9.33333" width="16" height="1.33334" fill="#FF0000"/>
+<rect y="10.6667" width="16" height="1.33333" fill="white"/>
+<rect y="12" width="16" height="1.33333" fill="#FF0000"/>
+<rect y="13.3333" width="16" height="1.33334" fill="white"/>
+<rect y="14.6667" width="16" height="1.33333" fill="#FF0000"/>
+</g>
+</svg>

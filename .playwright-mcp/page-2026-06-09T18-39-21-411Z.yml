@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - link "PGA Tour AI" [ref=e7] [cursor=pointer]:
+        - /url: /dashboard/betting
+        - img [ref=e8]
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "Research" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard/research
+            - img [ref=e14]
+            - generic [ref=e16]: Research
+        - listitem [ref=e17]:
+          - link "Betting" [ref=e18] [cursor=pointer]:
+            - /url: /dashboard/betting
+            - img [ref=e19]
+            - generic [ref=e21]: Betting
+        - listitem [ref=e22]:
+          - link "Fantasy" [ref=e23] [cursor=pointer]:
+            - /url: /dashboard/fantasy
+            - img [ref=e24]
+            - generic [ref=e26]: Fantasy
+        - listitem [ref=e27]:
+          - link "Live" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard/live
+            - img [ref=e29]
+            - generic [ref=e36]: Live
+        - listitem [ref=e37]:
+          - link "Portfolio" [ref=e38] [cursor=pointer]:
+            - /url: /dashboard/portfolio
+            - img [ref=e39]
+            - generic [ref=e42]: Portfolio
+        - listitem [ref=e43]:
+          - link "Brandel" [ref=e44] [cursor=pointer]:
+            - /url: /dashboard/ai
+            - img [ref=e45]
+            - generic [ref=e49]: Brandel
+      - generic "RBC Canadian Open / Event partly ready / Tee times are not posted yet." [ref=e51]:
+        - generic [ref=e52]: "80"
+        - generic [ref=e53]: RBC Canadian Open, TPC Toronto at Osprey Valley (North Course). Event partly ready. simulation-baseline-v0 0.1.0. Best edge 866.3%. Exposure $0. Event partly ready. 80 percent ready. Tee times are not posted yet.
+    - generic [ref=e54]:
+      - img
+      - main [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - button "Toggle Sidebar" [ref=e59] [cursor=pointer]:
+              - img
+              - generic [ref=e60]: Toggle Sidebar
+            - generic [ref=e61]:
+              - navigation "breadcrumb" [ref=e64]:
+                - list [ref=e65]:
+                  - listitem [ref=e66]:
+                    - link "PGAI" [ref=e67] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e68]:
+                    - img [ref=e69]
+                  - listitem [ref=e71]:
+                    - link "Dashboard" [disabled] [ref=e72]
+              - generic [ref=e73]:
+                - button "Toggle theme" [ref=e74] [cursor=pointer]:
+                  - img
+                - button "Account" [ref=e75] [cursor=pointer]:
+                  - generic [ref=e77]: CT
+                - button "Sign out" [ref=e78] [cursor=pointer]:
+                  - img
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - heading "Account" [level=2] [ref=e83]
+                - paragraph [ref=e84]: Carter Tyra / RBC Canadian Open
+              - generic [ref=e85]: 80% ready
+            - generic [ref=e86]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Event
+                - generic [ref=e89]: TPC Toronto at Osprey Valley (North Course)
+                - generic [ref=e90]: Event partly ready
+              - generic [ref=e91]:
+                - generic [ref=e92]: Model
+                - generic [ref=e93]: simulation-baseline-v0 0.1.0
+                - generic [ref=e94]: 144 modeled / 720 predictions
+              - generic [ref=e95]:
+                - generic [ref=e96]: Portfolio
+                - generic [ref=e97]: $0
+                - generic [ref=e98]: 0 open / 0 settled
+              - generic [ref=e99]:
+                - generic [ref=e100]: Watchlists
+                - generic [ref=e101]: "0"
+                - generic [ref=e102]: Saved player groups
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading "Event readiness" [level=3] [ref=e105]
+                - paragraph [ref=e106]: Tee times are not posted yet.
+              - generic [ref=e107]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: Tournament
+                    - generic [ref=e112]: RBC Canadian Open is selected.
+                  - generic [ref=e113]: 1/1
+                - generic [ref=e115]:
+                  - generic [ref=e116]:
+                    - generic [ref=e117]: Field
+                    - generic [ref=e118]: 148 players loaded.
+                  - generic [ref=e119]: "148"
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - generic [ref=e123]: Markets
+                    - generic [ref=e124]: 143 players have market prices.
+                  - generic [ref=e125]: 143/144
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: Tee times
+                    - generic [ref=e130]: Tee times are not posted yet.
+                  - generic [ref=e131]: 0/144
+                - generic [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135]: Model
+                    - generic [ref=e136]: 144 players modeled.
+                  - generic [ref=e137]: 144/144
+            - generic [ref=e138]:
+              - heading "Data notes" [level=3] [ref=e139]
+              - generic [ref=e140]:
+                - generic [ref=e141]: Field, markets, and model are ready. Tee times are not available yet for this event.
+                - generic [ref=e142]: Live scores, fantasy entries, portfolio actions, and AI output are still gated.
+  - button "Open Next.js Dev Tools" [ref=e148] [cursor=pointer]:
+    - img [ref=e149]
+  - generic:
+    - document
+  - alert [ref=e152]
+  - generic:
+    - document

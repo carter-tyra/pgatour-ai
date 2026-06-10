@@ -15,6 +15,69 @@
       "when": 1779725065597,
       "tag": "0001_add_balldontlie_ingest_foundation",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1779739665909,
+      "tag": "0002_add_ingest_observability",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1780665601541,
+      "tag": "0003_purple_richard_fisk",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1780670566478,
+      "tag": "0004_fuzzy_firebrand",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1780672464793,
+      "tag": "0005_wakeful_silk_fever",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1780679666318,
+      "tag": "0006_add_market_price_uniques",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1780926274059,
+      "tag": "0007_safe_venus",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1780930499952,
+      "tag": "0008_expand_player_season_stat_numeric",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1781020720000,
+      "tag": "0009_add_alert_acknowledgement",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1781025000000,
+      "tag": "0010_add_alert_preferences_and_deliveries",
+      "breakpoints": true
     }
   ]
 }

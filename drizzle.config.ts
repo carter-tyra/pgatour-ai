@@ -1,4 +1,7 @@
 import { defineConfig } from "drizzle-kit";
+import { loadWorkspaceEnv } from "./packages/config/src/workspace-env";
+
+loadWorkspaceEnv();
 
 export default defineConfig({
   schema: "./packages/db/src/schema.ts",

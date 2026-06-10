@@ -22,6 +22,27 @@ pnpm db:check
 pnpm db:generate
 pnpm db:migrate
 pnpm ingest:balldontlie:seed -- --sample
+pnpm data:status
+```
+
+## Environment
+
+Local secrets live in the repo root `.env.local`. Use `.env.example` as the
+template, but do not commit real `.env*` files. Root tooling, Drizzle, ingest
+scripts, and the Next.js app all load environment variables from the workspace
+root.
+
+Required local keys for the web app and database:
+
+```bash
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/pgatour_ai
+BETTER_AUTH_SECRET=replace-with-a-32-plus-character-secret
+```
+
+Required local key for BALLDONTLIE ingestion:
+
+```bash
+BALL_DONT_LIE_API_KEY=replace-with-provider-key
 ```
 
 ## Repo Layout

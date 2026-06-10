@@ -5,6 +5,22 @@ import type { ProviderAdapterOptions, ProviderRequest, ProviderResponse } from "
 const DEFAULT_TIMEOUT_MS = 10_000;
 const DEFAULT_MAX_RETRIES = 2;
 
+function errorMessage(error: unknown) {
+  if (!(error instanceof Error)) {
+    return "unknown error";
+  }
+
+  const message = error.message || error.name || "unknown error";
+  const causeMessage =
+    error.cause instanceof Error && error.cause.message ? error.cause.message : null;
+
+  if (causeMessage && !message.includes(causeMessage)) {
+    return `${message}: ${causeMessage}`;
+  }
+
+  return message;
+}
+
 function toSearchParams(params: ProviderRequest["params"] = {}) {
   const searchParams = new URLSearchParams();
 
@@ -80,6 +96,11 @@ export function createProviderFetcher(source: DataSource, options: ProviderAdapt
       }
     }
 
-    throw lastError instanceof Error ? lastError : new Error(`Failed to fetch ${source}`);
+    throw new Error(
+      `${source} ${request.endpoint} fetch failed after ${maxRetries + 1} attempts: ${errorMessage(
+        lastError,
+      )}`,
+      { cause: lastError },
+    );
   };
 }

@@ -8,6 +8,11 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
+    "db:wait": "tsx src/cli/db-wait.ts",
+    "data:quality": "tsx src/cli/data-quality.ts",
+    "data:repair-result-fields": "tsx src/cli/repair-result-field-entries.ts",
+    "data:status": "tsx src/cli/data-status.ts",
+    "ingest:balldontlie:history": "tsx src/cli/ball-dont-lie-history.ts",
     "ingest:balldontlie:seed": "tsx src/cli/ball-dont-lie-seed.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run --passWithNoTests"
@@ -18,8 +23,8 @@
     "@pgatour-ai/db": "workspace:*",
     "@pgatour-ai/domain": "workspace:*",
     "@pgatour-ai/providers": "workspace:*",
-    "dotenv": "^17.4.2",
     "drizzle-orm": "0.45.2",
+    "postgres": "3.4.9",
     "zod": "4.4.3"
   },
   "devDependencies": {

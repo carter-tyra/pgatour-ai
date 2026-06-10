@@ -1,0 +1,136 @@
+[ -485178ms] [ERROR] Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received @ http://localhost:3000/dashboard/betting?market=outright:0
+[ -485178ms] [ERROR] Unchecked runtime.lastError: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received @ http://localhost:3000/dashboard/betting?market=outright:0
+[ -408605ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nicolai_h_jgaard.webp:0
+[ -408538ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/michael_thorbjornsen.webp:0
+[ -408538ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kristoffer_reitan.webp:0
+[ -408459ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alex_noren.webp:0
+[ -408195ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keith_mitchell.webp:0
+[ -408128ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alex_fitzpatrick.webp:0
+[ -407876ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/eric_cole.webp:0
+[ -407780ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sahith_theegala.webp:0
+[ -407775ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/michael_brennan.webp:0
+[ -407721ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/j_t_poston.webp:0
+[ -407661ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rico_hoey.webp:0
+[ -407617ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/davis_thompson.webp:0
+[ -407575ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sudarshan_yellamaraju.webp:0
+[ -407269ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jordan_smith.webp:0
+[ -407169ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mac_meissner.webp:0
+[ -407114ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matt_wallace.webp:0
+[ -407049ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/thorbj_rn_olesen.webp:0
+[ -406963ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/doug_ghim.webp:0
+[ -406956ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/max_homa.webp:0
+[ -406894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/christiaan_bezuidenhout.webp:0
+[ -406836ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/johnny_keefer.webp:0
+[ -406816ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ricky_castillo.webp:0
+[ -406775ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/steven_fisk.webp:0
+[ -406695ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rasmus_neergaard_petersen.webp:0
+[ -406681ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/andrew_putnam.webp:0
+[ -406653ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/taylor_moore.webp:0
+[ -406621ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/max_mcgreevy.webp:0
+[ -406567ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adrien_dumont_de_chassart.webp:0
+[ -406566ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/beau_hossler.webp:0
+[ -406517ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zach_bauchou.webp:0
+[ -406502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/austin_smotherman.webp:0
+[ -406472ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/austin_eckroat.webp:0
+[ -406172ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/seamus_power.webp:0
+[ -406172ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lee_hodges.webp:0
+[ -406172ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/william_mouw.webp:0
+[ -406095ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chad_ramey.webp:0
+[ -406094ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/garrick_higgo.webp:0
+[ -406084ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/john_parry.webp:0
+[ -406035ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kris_ventura.webp:0
+[ -406030ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jesper_svensson.webp:0
+[ -406005ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/a_j_ewart.webp:0
+[ -405975ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jackson_suber.webp:0
+[ -405916ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/zecheng_dou.webp:0
+[ -405891ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kevin_roy.webp:0
+[ -405828ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sam_ryder.webp:0
+[ -405824ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/keita_nakajima.webp:0
+[ -405793ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/vince_whaley.webp:0
+[ -405754ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/hayden_springer.webp:0
+[ -405736ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/karl_vilips.webp:0
+[ -405714ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chandler_blanchet.webp:0
+[ -405659ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/neal_shipley.webp:0
+[ -405642ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/patrick_fishburn.webp:0
+[ -405613ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mark_hubbard.webp:0
+[ -405588ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/trace_crowe.webp:0
+[ -405564ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matthieu_pavon.webp:0
+[ -405541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/luke_clanton.webp:0
+[ -405507ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/brandt_snedeker.webp:0
+[ -405474ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_svensson.webp:0
+[ -405449ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/takumi_kanaya.webp:0
+[ -405424ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/john_vanderlaan.webp:0
+[ -405365ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/pontus_nyholm.webp:0
+[ -405351ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_hadwin.webp:0
+[ -405325ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/lanto_griffin.webp:0
+[ -405284ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/david_lipsky.webp:0
+[ -405278ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/paul_waring.webp:0
+[ -405248ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/dylan_wu.webp:0
+[ -405215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/hank_lebioda.webp:0
+[ -405198ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jimmy_stanger.webp:0
+[ -405176ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/joey_savoie.webp:0
+[ -405145ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ben_silverman.webp:0
+[ -405124ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/camilo_villegas.webp:0
+[ -405088ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/nick_dunlap.webp:0
+[ -405075ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/chandler_phillips.webp:0
+[ -405047ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/roger_sloan.webp:0
+[ -405018ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/christo_lamprecht.webp:0
+[ -404934ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/kensei_hirata.webp:0
+[ -404916ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/danny_walker.webp:0
+[ -404886ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/justin_lower.webp:0
+[ -404849ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/adam_schenk.webp:0
+[ -404833ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/matthew_anderson.webp:0
+[ -404792ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/alejandro_tosti.webp:0
+[ -404764ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/davis_chatfield.webp:0
+[ -404734ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/brice_garnett.webp:0
+[ -404672ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jeffrey_kang.webp:0
+[ -404667ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/peter_malnati.webp:0
+[ -404623ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/danny_willett.webp:0
+[ -404589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/jeevan_sihota.webp:0
+[ -404543ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/padraig_harrington.webp:0
+[ -404527ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/charley_hoffman.webp:0
+[ -404499ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/justin_matthews.webp:0
+[ -404431ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/patton_kizzire.webp:0
+[ -404383ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/marcelo_rozo.webp:0
+[ -404332ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/drew_nesbitt.webp:0
+[ -404262ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/ashton_mcculloch.webp:0
+[ -404230ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/declan_o_donovan.webp:0
+[ -404202ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/laurent_desmarchais.webp:0
+[ -404173ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/sean_o_hair.webp:0
+[ -404145ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/mike_weir.webp:0
+[ -404114ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/calen_sanderson.webp:0
+[ -404063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/rafael_campos.webp:0
+[ -404036ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/vince_covello.webp:0
+[ -403993ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/player-avatars/yohann_benson.webp:0
+[ -517344ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -515814ms] [LOG] Element Cloner content script loaded @ chrome-extension://obpjaonipoaomjnokbimppohbpjibflm/assets/injector-main.js-Byfhq6om.js:834
+[ -515038ms] [LOG] TypeError: Cannot read properties of null (reading 'appendChild')
+    at chrome-extension://cmkdbmfndkfgebldhnkbfhlneefdaaip/js/wrs_env.js:1:406
+    at chrome-extension://cmkdbmfndkfgebldhnkbfhlneefdaaip/js/wrs_env.js:1:530 @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -512297ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -512267ms] [LOG] [Fast Refresh] done in 147ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -419533ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -419122ms] [LOG] [Fast Refresh] done in 884ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -418431ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -416478ms] [LOG] [Fast Refresh] done in 2530ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -382087ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -382033ms] [LOG] [Fast Refresh] done in 290ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -367428ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -367166ms] [LOG] [Fast Refresh] done in 575ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -362213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -362185ms] [LOG] [Fast Refresh] done in 289ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -332936ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -332220ms] [LOG] [Fast Refresh] done in 169ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -303180ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -302367ms] [LOG] [Fast Refresh] done in 416ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -217923ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -217102ms] [LOG] [Fast Refresh] done in 924ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -212228ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -212206ms] [LOG] [Fast Refresh] done in 205ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -183553ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[ -183495ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[    -224ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[      11ms] A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+[       6ms] [LOG] [Fast Refresh] done in 331ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[     758ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477
+[     764ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/0vrh_next_dist_0mhvqyt._.js:2477

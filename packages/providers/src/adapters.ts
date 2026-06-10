@@ -38,15 +38,19 @@ export function createTheOddsApiClient(
   };
 }
 
-export function createBallDontLieClient(
-  options: Omit<ProviderAdapterOptions, "baseUrl" | "authStrategy">,
-): ProviderClient {
+export type BallDontLieClientOptions = Omit<ProviderAdapterOptions, "baseUrl" | "authStrategy"> & {
+  baseUrl?: string;
+};
+
+export function createBallDontLieClient(options: BallDontLieClientOptions): ProviderClient {
+  const { baseUrl = "https://api.balldontlie.io/pga/", ...fetcherOptions } = options;
+
   return {
     source: "balldontlie",
     fetchJson: createProviderFetcher("balldontlie", {
-      ...options,
+      ...fetcherOptions,
       authStrategy: { type: "authorization-header" },
-      baseUrl: "https://api.balldontlie.io/pga/v1/",
+      baseUrl,
     }),
   };
 }

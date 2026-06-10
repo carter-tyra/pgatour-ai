@@ -1,46 +1,5 @@
-import {
-  type ConfidenceLevel,
-  type ContestType,
-  edgePercentage,
-  fairAmericanLineFromProbability,
-  type MarketType,
-  type SubscriptionTier,
-} from "@pgatour-ai/domain";
-
-export type PlayerIntelligence = {
-  id: string;
-  name: string;
-  country: string;
-  archetype: string;
-  tier: "elite" | "contender" | "longshot";
-  teeWave: "AM/PM" | "PM/AM";
-  salary: number;
-  ownership: number;
-  projectedPoints: number;
-  cutProbability: number;
-  winProbability: number;
-  top20Probability: number;
-  currentOdds: Record<MarketType, number | null>;
-  strokesGained: {
-    total: number;
-    approach: number;
-    offTee: number;
-    putting: number;
-  };
-  courseFit: number;
-  form: number;
-  volatility: number;
-  confidence: ConfidenceLevel;
-  drivers: string[];
-  risks: string[];
-  lineMovement: number[];
-  live: {
-    position: string;
-    total: number;
-    today: number;
-    thru: string;
-  };
-};
+import type { MarketType, SubscriptionTier } from "@pgatour-ai/domain";
+import type { AlertFeedItem, FantasyContestConfig, PlayerIntelligence } from "./intelligence-types";
 
 export const tournament = {
   id: "trn-2026-memorial",
@@ -67,6 +26,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.93,
     winProbability: 0.166,
     top20Probability: 0.642,
+    modelMarkets: {},
     currentOdds: {
       outright: 450,
       top_5: 110,
@@ -101,6 +61,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.89,
     winProbability: 0.089,
     top20Probability: 0.518,
+    modelMarkets: {},
     currentOdds: {
       outright: 1200,
       top_5: 300,
@@ -135,6 +96,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.84,
     winProbability: 0.055,
     top20Probability: 0.431,
+    modelMarkets: {},
     currentOdds: {
       outright: 2500,
       top_5: 550,
@@ -169,6 +131,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.79,
     winProbability: 0.041,
     top20Probability: 0.372,
+    modelMarkets: {},
     currentOdds: {
       outright: 3300,
       top_5: 750,
@@ -203,6 +166,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.81,
     winProbability: 0.028,
     top20Probability: 0.348,
+    modelMarkets: {},
     currentOdds: {
       outright: 5000,
       top_5: 1000,
@@ -226,7 +190,7 @@ export const players: PlayerIntelligence[] = [
   },
   {
     id: "p-006",
-    name: "Sahith Theegala",
+    name: "Akshay Bhatia",
     country: "USA",
     archetype: "Volatile scorer",
     tier: "longshot",
@@ -237,6 +201,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.69,
     winProbability: 0.019,
     top20Probability: 0.286,
+    modelMarkets: {},
     currentOdds: {
       outright: 6600,
       top_5: 1400,
@@ -271,6 +236,7 @@ export const players: PlayerIntelligence[] = [
     cutProbability: 0.77,
     winProbability: 0.015,
     top20Probability: 0.271,
+    modelMarkets: {},
     currentOdds: {
       outright: 9000,
       top_5: 1800,
@@ -330,7 +296,7 @@ export const trackedBets = [
   },
 ];
 
-export const alertFeed = [
+export const alertFeed: AlertFeedItem[] = [
   {
     id: "alert-001",
     title: "Fleetwood top-20 still above fair",
@@ -380,24 +346,7 @@ export const subscriptionPlans: Array<{
   },
 ];
 
-export function modelEdgeFor(player: PlayerIntelligence, marketType: MarketType) {
-  const marketOdds = player.currentOdds[marketType];
-
-  if (marketOdds === null) {
-    return null;
-  }
-
-  const modelProbability =
-    marketType === "top_20" ? player.top20Probability : player.winProbability;
-
-  return {
-    marketOdds,
-    fairOdds: fairAmericanLineFromProbability(modelProbability),
-    edge: edgePercentage(modelProbability, marketOdds),
-  };
-}
-
-export const defaultContest: { type: ContestType; salaryCap: number; rosterSize: number } = {
+export const defaultContest: FantasyContestConfig = {
   type: "small_field_gpp",
   salaryCap: 50000,
   rosterSize: 6,
