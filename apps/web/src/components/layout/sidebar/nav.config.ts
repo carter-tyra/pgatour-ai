@@ -3,7 +3,7 @@ import {
   Analytics,
   Application,
   Bot,
-  type CarbonIconProps,
+  type CarbonIconType,
   CurrencyDollar,
   LogoGithub,
   LogoInstagram,
@@ -21,7 +21,7 @@ export type SidebarBadgeType = "new" | "updated" | "internal";
 export type SidebarItem = {
   label: string;
   href: string;
-  icon: React.ComponentType<CarbonIconProps>;
+  icon: CarbonIconType;
   badge?: SidebarBadgeType;
   dot?: SidebarDot;
 };
@@ -29,7 +29,7 @@ export type SidebarItem = {
 export type SidebarGroup = {
   id: string;
   label: string;
-  icon: React.ComponentType<CarbonIconProps>;
+  icon: CarbonIconType;
   defaultOpen?: boolean;
   items: SidebarItem[];
 };
@@ -37,66 +37,66 @@ export type SidebarGroup = {
 export const brand = {
   label: "PGA Tour AI",
   href: "/dashboard/betting",
-  icon: Activity as React.ComponentType<CarbonIconProps>,
+  icon: Activity,
 };
 
 export const sidebarNav: SidebarGroup[] = [
   {
     id: "intelligence",
     label: "Intelligence",
-    icon: Analytics as React.ComponentType<CarbonIconProps>,
+    icon: Analytics,
     defaultOpen: true,
     items: [
       {
         label: "Research",
         href: "/dashboard/research",
-        icon: Search as React.ComponentType<CarbonIconProps>,
+        icon: Search,
       },
       {
         label: "Betting",
         href: "/dashboard/betting",
-        icon: CurrencyDollar as React.ComponentType<CarbonIconProps>,
+        icon: CurrencyDollar,
       },
       {
         label: "Fantasy",
         href: "/dashboard/fantasy",
-        icon: Trophy as React.ComponentType<CarbonIconProps>,
+        icon: Trophy,
       },
     ],
   },
   {
     id: "live",
     label: "Live",
-    icon: Radio as React.ComponentType<CarbonIconProps>,
+    icon: Radio,
     defaultOpen: true,
     items: [
       {
         label: "Live",
         href: "/dashboard/live",
-        icon: Radio as React.ComponentType<CarbonIconProps>,
+        icon: Radio,
       },
       {
         label: "Portfolio",
         href: "/dashboard/portfolio",
-        icon: Wallet as React.ComponentType<CarbonIconProps>,
+        icon: Wallet,
       },
     ],
   },
   {
     id: "workspace",
     label: "Workspace",
-    icon: Application as React.ComponentType<CarbonIconProps>,
+    icon: Application,
     defaultOpen: true,
     items: [
       {
         label: "Brandel",
         href: "/dashboard/brandel",
-        icon: Bot as React.ComponentType<CarbonIconProps>,
+        icon: Bot,
       },
       {
         label: "Account",
         href: "/dashboard/account",
-        icon: UserAvatar as React.ComponentType<CarbonIconProps>,
+        icon: UserAvatar,
       },
     ],
   },
@@ -105,7 +105,7 @@ export const sidebarNav: SidebarGroup[] = [
 export type SocialLink = {
   label: string;
   href: string;
-  icon: React.ComponentType<CarbonIconProps>;
+  icon: CarbonIconType;
 };
 
 // Placeholder URLs — swap in real handles when available.
@@ -113,17 +113,17 @@ export const socialLinks: SocialLink[] = [
   {
     label: "Home",
     href: "/dashboard",
-    icon: Activity as React.ComponentType<CarbonIconProps>,
+    icon: Activity,
   },
-  { label: "X", href: "#", icon: LogoX as React.ComponentType<CarbonIconProps> },
+  { label: "X", href: "#", icon: LogoX },
   {
     label: "GitHub",
     href: "#",
-    icon: LogoGithub as React.ComponentType<CarbonIconProps>,
+    icon: LogoGithub,
   },
   {
     label: "Instagram",
     href: "#",
-    icon: LogoInstagram as React.ComponentType<CarbonIconProps>,
+    icon: LogoInstagram,
   },
 ];
