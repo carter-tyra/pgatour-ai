@@ -9,6 +9,8 @@
 
 :root {
   --radius: 0.625rem;
+  --aside-width: 3.5rem;
+  --sidebar-panel-width: 17rem;
 
   /* Light mode — "architect's paper": crisp cool-neutral ladder, calm green accent.
      Elevation ladder (low -> high lightness): sidebar/desk < canvas < panel.
