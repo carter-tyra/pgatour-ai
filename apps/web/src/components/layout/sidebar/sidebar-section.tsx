@@ -33,7 +33,11 @@ export function SidebarSection({
         <group.icon className="size-4" aria-hidden="true" />
         <span className="font-mono text-sm font-medium tracking-wide uppercase">{group.label}</span>
         <span className="ml-auto text-sidebar-foreground/50">
-          {open ? <Subtract className="size-3" /> : <Add className="size-3" />}
+          {open ? (
+            <Subtract className="size-3" aria-hidden="true" />
+          ) : (
+            <Add className="size-3" aria-hidden="true" />
+          )}
         </span>
       </button>
 
