@@ -90,7 +90,7 @@ export const sidebarNav: SidebarGroup[] = [
     items: [
       {
         label: "Brandel",
-        href: "/dashboard/brandel",
+        href: "/dashboard/ai",
         icon: Bot,
       },
       {

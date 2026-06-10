@@ -7,6 +7,7 @@ import { Kbd } from "@/components/ui/kbd";
 export function SidebarSearch() {
   return (
     <CommandMenu
+      shortcut
       trigger={
         <button
           type="button"

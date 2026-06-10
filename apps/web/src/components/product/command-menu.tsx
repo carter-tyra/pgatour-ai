@@ -13,6 +13,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import { useMountEffect } from "@/hooks/use-mount-effect";
 
 const actions = [
   { label: "Research", href: "/dashboard/research" },
@@ -20,17 +21,39 @@ const actions = [
   { label: "Fantasy", href: "/dashboard/fantasy" },
   { label: "Live", href: "/dashboard/live" },
   { label: "Portfolio", href: "/dashboard/portfolio" },
-  { label: "AI Analyst", href: "/dashboard/brandel" },
+  { label: "AI Analyst", href: "/dashboard/ai" },
 ] as const;
 
-export function CommandMenu({ trigger }: { trigger?: ReactElement } = {}) {
+export function CommandMenu({
+  trigger,
+  shortcut = false,
+}: {
+  trigger?: ReactElement;
+  shortcut?: boolean;
+} = {}) {
+  const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const visibleActions = actions.filter((action) =>
     action.label.toLowerCase().includes(query.trim().toLowerCase()),
   );
 
+  useMountEffect(() => {
+    if (!shortcut) {
+      return;
+    }
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key.toLowerCase() === "k" && (event.metaKey || event.ctrlKey)) {
+        event.preventDefault();
+        setOpen((previous) => !previous);
+      }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  });
+
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={(value) => setOpen(value)}>
       {trigger ? (
         <DialogTrigger render={trigger} />
       ) : (
@@ -67,6 +90,7 @@ export function CommandMenu({ trigger }: { trigger?: ReactElement } = {}) {
                 className="justify-start"
                 nativeButton={false}
                 render={<Link href={action.href} />}
+                onClick={() => setOpen(false)}
               >
                 {action.label}
               </Button>
