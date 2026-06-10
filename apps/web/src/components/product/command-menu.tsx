@@ -2,7 +2,7 @@
 
 import { Search } from "@carbon/icons-react";
 import Link from "next/link";
-import { useState } from "react";
+import { type ReactElement, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -23,7 +23,7 @@ const actions = [
   { label: "AI Analyst", href: "/dashboard/brandel" },
 ] as const;
 
-export function CommandMenu() {
+export function CommandMenu({ trigger }: { trigger?: ReactElement } = {}) {
   const [query, setQuery] = useState("");
   const visibleActions = actions.filter((action) =>
     action.label.toLowerCase().includes(query.trim().toLowerCase()),
@@ -31,17 +31,21 @@ export function CommandMenu() {
 
   return (
     <Dialog>
-      <DialogTrigger
-        render={
-          <Button
-            variant="outline"
-            className="hidden h-10 w-full min-w-lg justify-start gap-2 rounded-md bg-toolbar px-3 text-muted-foreground/80 md:flex"
-          />
-        }
-      >
-        <Search size={16} data-icon="inline-start" className="text-muted-foreground/50" />
-        Search
-      </DialogTrigger>
+      {trigger ? (
+        <DialogTrigger render={trigger} />
+      ) : (
+        <DialogTrigger
+          render={
+            <Button
+              variant="outline"
+              className="hidden h-10 w-full min-w-lg justify-start gap-2 rounded-md bg-toolbar px-3 text-muted-foreground/80 md:flex"
+            />
+          }
+        >
+          <Search size={16} data-icon="inline-start" className="text-muted-foreground/50" />
+          Search
+        </DialogTrigger>
+      )}
       <DialogContent className="min-w-2xl p-0 backdrop-blur-lg backdrop-saturate-150">
         <DialogHeader className="border-b p-4">
           <DialogTitle>Search</DialogTitle>
